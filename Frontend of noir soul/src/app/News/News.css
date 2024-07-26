@@ -1,0 +1,34 @@
+.page {
+  text-align: center;
+  margin: 20px;
+}
+
+.page-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.news-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+  text-align: left;
+}
+
+.news-item h2 {
+  margin: 0 0 10px;
+}
+
+.news-item p {
+  margin: 5px 0;
+}
